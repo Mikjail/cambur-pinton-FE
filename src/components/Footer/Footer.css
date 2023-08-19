@@ -1,0 +1,21 @@
+.page-footer {
+  background-color: #3a3939;
+  position: absolute;
+  width: 100%; }
+  .page-footer p a {
+    color: white;
+    text-align: center; }
+  .page-footer .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .page-footer .footer-container ul {
+      margin-top: 5px; }
+  .page-footer .social-media li {
+    float: left;
+    margin: 10px; }
+  .page-footer .social-media .social-svg {
+    width: 70% !important;
+    height: 70% !important; }
+  .page-footer .social-media .social-svg-mask {
+    fill: white !important; }

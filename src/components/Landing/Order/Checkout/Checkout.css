@@ -1,0 +1,57 @@
+.container {
+  width: 70%; }
+  .container .card-panel {
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f7f7; }
+    .container .card-panel.card-summary {
+      padding: 10px 10px; }
+    .container .card-panel .summary {
+      font-size: 13px; }
+      .container .card-panel .summary tr.summary-details {
+        background-color: #fafafa;
+        font-weight: 400; }
+      .container .card-panel .summary tr.end-summary {
+        border-top: 1px solid #d0d0d0; }
+      .container .card-panel .summary th, .container .card-panel .summary td {
+        padding: 8px 5px;
+        text-align: right; }
+        .container .card-panel .summary th:first-child, .container .card-panel .summary td:first-child {
+          text-align: left; }
+    .container .card-panel.card-panel-payment {
+      padding: 0; }
+      .container .card-panel.card-panel-payment button:focus {
+        background-color: #f39200;
+        color: white; }
+      .container .card-panel.card-panel-payment .card-body {
+        height: 200px; }
+      .container .card-panel.card-panel-payment .card-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 40px;
+        border-bottom: 1px solid #ddd; }
+    .container .card-panel #cash-container {
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 0 30%; }
+      .container .card-panel #cash-container input[type=text] {
+        text-align: center; }
+    .container .card-panel #pago-online {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      .container .card-panel #pago-online .mercadopago-logo {
+        height: 100px; }
+
+@media only screen and (max-width: 400px) {
+  .container .row {
+    margin: 0; }
+  .container .card-panel.card-summary {
+    position: fixed;
+    width: 100%; } }

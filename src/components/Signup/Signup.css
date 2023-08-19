@@ -1,0 +1,23 @@
+.login-section.regsiter-section hr {
+  margin-bottom: 30px; }
+
+.login-section.regsiter-section .card-panel {
+  height: auto; }
+  .login-section.regsiter-section .card-panel .body-panel {
+    display: flex;
+    flex-direction: column; }
+    .login-section.regsiter-section .card-panel .body-panel input {
+      height: 20px; }
+
+.login-section.regsiter-section .google-btn {
+  margin-top: 20px; }
+
+.login-section.regsiter-section .btn-login {
+  margin-bottom: 30px; }
+
+.login-section.regsiter-section .g-recaptcha {
+  margin-bottom: 20px; }
+
+@media screen and (max-width: 992px) {
+  .login-section.regsiter-section .g-recaptcha {
+    margin-bottom: 0px; } }

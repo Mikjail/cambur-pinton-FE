@@ -1,0 +1,30 @@
+nav {
+  position: fixed;
+  margin-top: 0; }
+  nav .line-progress-bar {
+    display: inline-block;
+    width: 100px;
+    height: 1px;
+    margin: 10px 17px;
+    background-color: #b9b9b9; }
+  nav#location-nav {
+    background-color: rgba(0, 0, 0, 0);
+    top: 0;
+    box-shadow: none; }
+    nav#location-nav i {
+      float: none; }
+    nav#location-nav .breadcrumb {
+      font-size: 18px;
+      background-color: rgba(0, 0, 0, 0);
+      color: #b9b9b9; }
+      nav#location-nav .breadcrumb:before {
+        display: none; }
+      nav#location-nav .breadcrumb.active {
+        color: #f39200; }
+
+@media only screen and (max-width: 992px) {
+  nav {
+    margin-top: 10%; }
+    nav .line-progress-bar {
+      width: 50px;
+      margin: 10px 2px; } }

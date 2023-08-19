@@ -1,0 +1,12 @@
+.success-section {
+  text-align: center; }
+  .success-section h3 {
+    color: white; }
+  .success-section .space-between {
+    height: 200px; }
+
+@media only screen and (max-width: 992px) {
+  .success-section h3 {
+    color: black; }
+  .success-section .space-between {
+    height: 55px; } }

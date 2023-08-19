@@ -1,0 +1,23 @@
+html, body, #root {
+  height: 100%;
+  background-color: black;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; }
+
+.first-row {
+  padding-top: 10%; }
+
+a.primary, button.primary {
+  background-color: #f39200; }
+  a.primary:hover, a.primary:focus, button.primary:hover, button.primary:focus {
+    background-color: #f39200; }
+
+.error-message {
+  padding: 10px;
+  text-align: center;
+  color: red; }
+
+.primary-link {
+  color: #f39200; }
+
+.text-center {
+  text-align: center; }

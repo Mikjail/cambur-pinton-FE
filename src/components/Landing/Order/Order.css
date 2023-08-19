@@ -1,0 +1,18 @@
+.second-section.section {
+  z-index: 10;
+  height: auto !important;
+  width: 100%;
+  background-color: black;
+  position: relative; }
+
+.second-section .container {
+  width: 100%; }
+
+.second-section #location-nav {
+  position: relative; }
+
+@media only screen and (max-width: 992px) {
+  .second-section.section {
+    background-color: #fff; }
+  .second-section #location-nav {
+    margin-top: 10%; } }

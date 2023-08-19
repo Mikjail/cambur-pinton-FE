@@ -1,0 +1,85 @@
+.login-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  height: 100%;
+  width: 100%; }
+  .login-section hr {
+    width: 100%; }
+  .login-section .card-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 425px;
+    height: 65%;
+    padding: 0px 25px; }
+    .login-section .card-panel .header-panel {
+      width: 100%;
+      background-color: #f39200;
+      text-align: center;
+      color: white; }
+    .login-section .card-panel .body-panel {
+      display: flex;
+      flex-direction: column;
+      padding: 0px;
+      width: 100%;
+      align-items: center; }
+      .login-section .card-panel .body-panel .field-container {
+        height: 100px; }
+      .login-section .card-panel .body-panel form {
+        width: 75%; }
+      .login-section .card-panel .body-panel .forgot-password {
+        margin: 15px 0; }
+        .login-section .card-panel .body-panel .forgot-password .primary-link {
+          font-size: 13px; }
+      .login-section .card-panel .body-panel .btn {
+        margin-bottom: 10px; }
+  .login-section .google-btn {
+    display: flex;
+    width: 280px;
+    height: 40px;
+    background-color: white;
+    padding: 0;
+    color: #757575;
+    border: 1px solid #acacac;
+    margin: 16px 0;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24), 0 0 2px 0 rgba(0, 0, 0, 0.12); }
+    .login-section .google-btn:focus {
+      background-color: white; }
+    .login-section .google-btn:hover {
+      background-color: white; }
+    .login-section .google-btn .google-icon {
+      background: url("../../images/icon/btngoogle.svg");
+      background-position-y: 50%;
+      width: 45px;
+      height: 38px;
+      border-right: 1px solid #f39200; }
+    .login-section .google-btn .btn-title {
+      flex-grow: 1; }
+  .login-section .btn-login {
+    width: 100%;
+    background-color: #f39200; }
+
+@media screen and (max-width: 992px) {
+  .login-section {
+    width: 90%;
+    margin: auto;
+    height: 115%; }
+    .login-section .card-panel {
+      margin-top: 15%;
+      width: 100%;
+      height: auto;
+      justify-content: space-evenly; }
+      .login-section .card-panel .space-between {
+        height: 50px; }
+      .login-section .card-panel .body-panel {
+        padding: 0px;
+        width: 100%; }
+        .login-section .card-panel .body-panel .field-container {
+          height: 45px; }
+        .login-section .card-panel .body-panel form {
+          width: 100%; }
+          .login-section .card-panel .body-panel form input {
+            height: 30px; } }

@@ -1,0 +1,50 @@
+.second-section .food-list {
+  padding-top: 10%;
+  height: 100%; }
+
+.second-section .menu-detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 0%;
+  margin-right: 0%; }
+
+.second-section .card {
+  width: 238px; }
+  .second-section .card .card-reveal {
+    font-size: 13px;
+    padding: 0;
+    opacity: 0.9; }
+    .second-section .card .card-reveal .card-title {
+      padding: 15px 15px 0px 20px; }
+  .second-section .card .foodImgPpal {
+    height: 570px;
+    width: 100%;
+    background: url("../../../../../images/TequeArepasEmpanadasPatacones.png");
+    background-size: 1000px; }
+  .second-section .card .foodImgSecond {
+    height: 570px;
+    width: 100%;
+    background: url("../../../../../images/QuesillosArepasQuesos.png");
+    background-size: 1000px; }
+  .second-section .card .extras,
+  .second-section .card .tequenos {
+    background-position-x: 0%; }
+    @media (max-width: 900px) {
+      .second-section .card .extras,
+      .second-section .card .tequenos {
+        background-position-x: 4%; } }
+  .second-section .card .arepa-maiz {
+    background-position-x: 33.33%; }
+  .second-section .card .arepa-trigo,
+  .second-section .card .empanadas {
+    background-position-x: 66.7%; }
+    @media (max-width: 900px) {
+      .second-section .card .arepa-trigo,
+      .second-section .card .empanadas {
+        background-position-x: 65%; } }
+  .second-section .card .patacon {
+    background-position-x: 100%; }
+    @media (max-width: 900px) {
+      .second-section .card .patacon {
+        background-position-x: 95%; } }

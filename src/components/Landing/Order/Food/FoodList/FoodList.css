@@ -1,0 +1,16 @@
+.collection {
+  border: none; }
+  .collection.with-header .collection-item {
+    margin-top: 10px;
+    padding: 10px 0px 10px 5px; }
+    .collection.with-header .collection-item:hover {
+      background-color: #fbc97d;
+      transition: 0.4s; }
+    .collection.with-header .collection-item .product-price {
+      float: right;
+      margin-right: 5px; }
+    .collection.with-header .collection-item i.tiny {
+      font-size: 1.3rem;
+      color: #f39200; }
+      .collection.with-header .collection-item i.tiny:hover {
+        color: black; }

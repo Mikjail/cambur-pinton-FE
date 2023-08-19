@@ -1,0 +1,79 @@
+@media screen and (max-width: 992px) {
+  .summary-panel,
+  .summary-checkout-panel {
+    z-index: 50;
+    right: 0;
+    display: none;
+    top: 50px;
+    width: 100%; }
+    .summary-panel.active,
+    .summary-checkout-panel.active {
+      display: block; }
+    .summary-panel .card-panel,
+    .summary-checkout-panel .card-panel {
+      background-color: #f7f7f7; }
+  .summary-checkout-panel {
+    top: 7%;
+    position: absolute;
+    margin-bottom: 0; } }
+
+@media screen and (min-width: 992px) {
+  .summary-panel {
+    font-size: 13px;
+    width: 20%;
+    right: 15%;
+    top: 20%; } }
+
+.summary-panel {
+  position: fixed; }
+  .summary-panel .card-panel {
+    width: 100%;
+    padding: 10px 25px; }
+    .summary-panel .card-panel.desactive {
+      background-color: #d6d6d6; }
+    .summary-panel .card-panel .header-panel {
+      display: flex;
+      height: 40px;
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      background-color: #f39200;
+      color: white; }
+    .summary-panel .card-panel .body-panel {
+      display: flex;
+      justify-content: center;
+      padding: 60px 0px; }
+    .summary-panel .card-panel .bottom-panel {
+      display: flex;
+      justify-content: center; }
+      .summary-panel .card-panel .bottom-panel .btn.desactive {
+        background-color: grey; }
+      .summary-panel .card-panel .bottom-panel .btn:focus {
+        background-color: #f39200; }
+    .summary-panel .card-panel h5 {
+      font-size: 1.20rem;
+      text-align: center; }
+    .summary-panel .card-panel select {
+      display: inline;
+      width: 40px;
+      height: 30px; }
+    .summary-panel .card-panel .summary-detail {
+      display: flex;
+      justify-content: flex-start;
+      align-content: center;
+      align-items: baseline;
+      font-size: 12px; }
+      .summary-panel .card-panel .summary-detail .product-detail {
+        padding-left: 10px;
+        flex-grow: 1; }
+      .summary-panel .card-panel .summary-detail .product-price {
+        margin-right: 20px; }
+        .summary-panel .card-panel .summary-detail .product-price a {
+          margin-top: 3px;
+          margin-left: 8px;
+          position: absolute;
+          color: #f39200; }
+    .summary-panel .card-panel .total-details section {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; }

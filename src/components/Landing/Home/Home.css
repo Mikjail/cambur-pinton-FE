@@ -1,0 +1,25 @@
+.first-section {
+  width: 100%;
+  background: url("../../../images/backgroundHomePC.png") no-repeat center;
+  background-size: cover; }
+  .first-section .logo-home {
+    position: absolute;
+    right: 2%;
+    bottom: 5%; }
+    .first-section .logo-home img {
+      width: 70%; }
+
+@media only screen and (max-width: 992px) {
+  .first-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; }
+    .first-section .logo-mobile {
+      text-align: center; }
+      .first-section .logo-mobile img {
+        width: 60%; }
+    .first-section .pedirIcon-mobile {
+      text-align: center; }
+      .first-section .pedirIcon-mobile img {
+        width: 55%; } }
